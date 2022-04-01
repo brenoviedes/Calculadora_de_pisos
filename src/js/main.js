@@ -85,7 +85,7 @@ const calculateFloorValue = (area, priceFloor) => {
 const typeClickEvent = (e) =>  {
 
     $('.floor.active').classList.remove('active')
-    e.target.classList.add('active')   
+    e.currentTarget.classList.add('active')   
 }
 
 
